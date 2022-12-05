@@ -18,7 +18,31 @@ TrendMachine API is a RESTful API Server
 - DELETE [api/gametrend/{id}] - Remove a gametrend item by id
 - POST [api/gametrend] - Create a gametrend item with given value
 # Sample Request Body 
-- 
+GET [api/gametrend]
+```json
+{}
+```
+GET [api/gametrend/{id}]
+```json
+{
+    "id": 1
+}
+```
+DELETE [api/gametrend/{id}]
+```json
+{
+    "id": 1
+}
+```
+POST [api/gametrend]
+```json
+{
+    "id": 5,
+    "name": "god of war",
+    "peak_Num": 73529,
+    "net_Income": 4411740
+}
+```
 # Sample Response Body
 ```cs
     public class GameTrendResponse
