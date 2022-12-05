@@ -22,13 +22,13 @@ GET [api/gametrend]
 ```json
 {}
 ```
-GET [api/gametrend/{id}]
+GET [api/gametrend]
 ```json
 {
     "id": 1
 }
 ```
-DELETE [api/gametrend/{id}]
+DELETE [api/gametrend]
 ```json
 {
     "id": 1
@@ -81,4 +81,6 @@ POST [api/gametrend]
 }
 ```
 # Changes
-
+- Didnt implement all the expected features due to time
+- Used foreign key on id twice instead of name once and id once
+- Changed the datetime type to string for dates for simplicity
