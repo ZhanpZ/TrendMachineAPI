@@ -30,6 +30,31 @@ TrendMachine API is a RESTful API Server
     }
 ```
 ```json
+{
+    "statusCode": "200",
+    "description": "GET Success",
+    "gameInfo": null,
+    "gametrend": [
+        {
+            "id": 1,
+            "name": "cyberpunk",
+            "peak_Num": 830387,
+            "net_Income": 120000000
+        },
+        {
+            "id": 2,
+            "name": "witcher 3",
+            "peak_Num": 103329,
+            "net_Income": 3099870
+        },
+        {
+            "id": 3,
+            "name": "elden ring",
+            "peak_Num": 952523,
+            "net_Income": 57151380
+        }
+    ]
+}
 ```
 # Changes
 
